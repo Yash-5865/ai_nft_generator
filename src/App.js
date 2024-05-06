@@ -30,10 +30,34 @@ function App() {
   return (
     <div>
       <Navigation account={account} setAccount={setAccount} />
-      <p>Edit App.js to get started.</p>
+      
+      <div className='form'>
+        <form>
+          <input type="text" placeholder='Create a Name' />
+          <input type="text" placeholder='Create a Description'/>
+          <input type="submit" value="Mint AI NFT"/>
+        </form>
+        
+        <div className='image'>
+          <image src="" alt="AI NFT" />
+        </div>
+      </div>
+
+      <p>View&nbsp;<a href="" target="_blank" rel="noreferrer">Metadata</a></p>
 
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
